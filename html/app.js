@@ -5,22 +5,22 @@ const { ref } = Vue
 const load = Vue.createApp({
   setup () {
     return {
-      CarouselText1: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
+      CarouselText1: 'Willkommen auf unserem Server, wir hoffen ihr habt hier so viel Spaß wie wir.',
       CarouselSubText1: 'Photo captured by: Markyoo#8068',
-      CarouselText2: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
+      CarouselText2: 'Wenn ihr Fragen, Ideen, Konzepte, etc. habt, dann eröffnet einfach ein Ticket.',
       CarouselSubText2: 'Photo captured by: ihyajb#9723',
-      CarouselText3: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
+      CarouselText3: 'Unsere wichtigsten Menüs laufen über F1 oder Left-ALT.',
       CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
-      CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
+      CarouselText4: 'Handelt immer so, wie ihr auch in echt handeln würdet.',
       CarouselSubText4: 'Photo captured by: Robinerino#1312',
 
-      DownloadTitle: 'Downloading QBCore Server',
-      DownloadDesc: "Hold tight while we begin downloading all the resources/assets required to play on QBCore Server. \n\nAfter download has been finished successfully, you'll be placed into the server and this screen will disappear. Please don't leave or turn off your PC. ",
+      DownloadTitle: 'Downloading My Life Be Like',
+      DownloadDesc: "Bleibt dran, solange wir die nötigen Daten für den Server downloaden. \n\nNachdem der Donwload erfolgreich war, wird dieser Screen verschwinden und ihr landet auf dem Server. ",
 
       SettingsTitle: 'Settings',
-      AudioTrackDesc1: 'When disabled the current audio-track playing will be stopped.',
-      AutoPlayDesc2: 'When disabled carousel images will stop cycling and remain on the last shown.',
-      PlayVideoDesc3: 'When disabled video will stop playing and remain paused.',
+      AudioTrackDesc1: 'Wenn ausgeschaltet, wird das Lied gestoppt.',
+      AutoPlayDesc2: 'Wenn ausgeschaltet, wird das letzte Bild angezeigt.',
+      PlayVideoDesc3: '´Wenn ausgeschaltet, stoppt das Video.',
 
       KeybindTitle: 'Default Keybinds',
       Keybind1: 'Open Inventory',
